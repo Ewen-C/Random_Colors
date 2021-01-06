@@ -25,18 +25,3 @@ body {
 
 #info_Copy1, #info_Copy2, #linkColorSwap {
   visibility: hidden;
-}
-
-/* Copier le code héxa lors du clic : OK */
-
-/* Inverser couleur de texte et couleur de fond OK */
-
-
-/* Revenir à la couleur précédente OK */
-
-/* Garder une couleur et changer les autres */
-
-
-/* Gestion Hsl ? */
-
-/* Mélange de couleurs (moyenne RGB) ? */
