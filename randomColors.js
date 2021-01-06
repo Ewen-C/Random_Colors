@@ -203,15 +203,3 @@ function functionSwapBackAndText() {
 
 
   functionSetLinksColor();
-}
-
-
-// Animer (0.3s) les transitions entre les couleurs
-
-// Garder une couleur du RVB et changer les autres
-
-// Gestion Hsl ?
-
-// Mélange de couleurs (moyenne RVB) ?
-
-// Indiquer une couleur + Outil color du html
