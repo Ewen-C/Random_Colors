@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Page caméléon !</title>
+		<link rel="stylesheet" href="randomColors.css" type="text/css">
+		<script src="randomColors.js" defer></script>
+	</head>
+
+	<body>
+
+		<header>
+			<h1>Une page colorée !</h1>
+			<p>Ceci est une sympatique petite page à la couleur changeante.</p>
+		</header>
+
+		<section>
+
+			<p>La couleur du fond en RVB est la suivante (0 = Noir, 255 = Blanc) :</p>
+			<p>
+				Rouge : <span id="RED1"></span> / Vert : <span id="GREEN1"></span> / Bleu : <span id="BLUE1"></span> <br />
+				Code héxadécimal : <span id="HEXA1"></span> - <a href="javascript:functionCopy('HEXA1')">Copier le code héxa</a>
+				<span id="info_Copy1"> <br/> Code héxa copié !</span>
+			</p>
+
+			<p>La couleur du texte est complémentaire de celle du fond :</p>
+			<p>
+				Rouge : <span id="RED2"></span> / Vert : <span id="GREEN2"></span> / Bleu : <span id="BLUE2"></span> <br />
+				Code héxadécimal : <span id="HEXA2"></span> - <a href='javascript:functionCopy("HEXA2")'>Copier le code héxa</a>
+				<span id="info_Copy2"> <br/> Code héxa copié !</span>
+			</p>
+
+			<p><a href="javascript:functionSwapBackAndText()">Échanger les couleurs du fond et du texte !</a> </p>
+			<p>
+				Couleurs précédentes : <span id="hexaPreviousBackground">------</span> (fond) / <span id="hexaPreviousText">------</span> (texte) <br/>
+				<span id="linkColorSwap"><a href="javascript:functionSwapPreviousColors()">Revenir aux couleurs précédentes !</a></span>
+			</p>
+
+		</section>
+
+		<footer>
+			<p>Par Ewen Celibert - <a target="_blank" href="http://ewenc.epizy.com">Site web</a></p>
+			<a id="New_Colors" href="javascript:functionChangeColors()">Créer de nouvelles couleurs !</a>
+		</footer>
+
+	</body>
+
+</html>
