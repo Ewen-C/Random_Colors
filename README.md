@@ -7,4 +7,4 @@ Les liens héxadécimaux peuvent être facilement copiés pour être utilisés d
 ## Améliorations possibles de cette page : 
 - Afficher le code HSL des couleurs affichées
 - Utiliser l'éditeur de couleurs de l'HTML (<input type="color">)
-- Faire un mélange de couleurs entre une choisie et une déjà affichée
+- Faire un mélange de couleurs entre une à choisir et une déjà affichée (fond et texte)
